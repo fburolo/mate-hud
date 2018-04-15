@@ -22,5 +22,13 @@
         Set to 0 to disable the timeout.
       </description>
     </key>
+    <key type="d" name="opacity">
+      <default>1</default>
+      <range min="0.0" max="1.0"/>
+      <summary>Opacity level for the HUD.</summary>
+      <description>
+        Set opacity level for the HUD. "1" means full opacity, 0.5 is 50%, 0.75 is 75% and so on.
+      </description>
+    </key>
   </schema>
 </schemalist>
